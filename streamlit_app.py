@@ -23,7 +23,7 @@ streamlit.header("Fruityvice Fruit Advice!")
 
 #new section to dispay fruityvice api
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"Kiwi")
 #streamlit.text(fruityvice_response.json())
 
 # take the jsaon version of code and normalize it 
